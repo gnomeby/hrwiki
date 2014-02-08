@@ -1,5 +1,6 @@
 HRWiki
 ======
++([Русская версия](https://github.com/gnomeby/hrwiki-ru))
 
 HRWiki - Encyclopedia for managing CVs and related information about candidates
 
@@ -14,8 +15,6 @@ Features:
 *Support*
 * [Leave a ticket](https://github.com/gnomeby/hrwiki/issues/new)
 * or [Write an email](mailto:hrwiki-support@holey.org)
-
-![gnomeby avatar](http://niakhaichyk.org/andrey/img/lisa_small_32.png)
 
 #### Requirements:
 * Apache 2.2
@@ -43,8 +42,8 @@ Features:
 * Download HRWiki tool [sources](https://github.com/gnomeby/hrwiki/archive/master.zip)
 * * Extract it as a new apache VirtualHost site
 * * Restore MySQL dump from the file *maintenance/dumps/05_hrwiki_configure_semantic.sql*
-* * Open *extensions/FileIndexer/FileIndexer_cfg.php* and check $wgFiCommandPaths section, make sucre that yout have such tool with those paths
-* * Open *LocalSettings.php* and cnage the following properties:
+* * Open *extensions/FileIndexer/FileIndexer_cfg.php* and check $wgFiCommandPaths section, make sure that yout have such tool with those paths
+* * Open *LocalSettings.php* and change the following properties:
 * * $wgServer
 * * $wgEmergencyContact
 * * $wgPasswordSender
