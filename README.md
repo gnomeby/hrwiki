@@ -14,7 +14,6 @@ Features:
 
 *Support*
 * [Leave a ticket](https://github.com/gnomeby/hrwiki/issues/new)
-* or [Write an email](mailto:hrwiki-support@holey.org)
 
 #### Requirements:
 * Apache 2.2
